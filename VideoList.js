@@ -36,18 +36,21 @@ export default VideoList;
 
 const styles = StyleSheet.create({
     "thumbnail": {
-        "width": "100vw",
-        "height": "100vw",
+        "width": "90vw",
+        "height": "90vw",
         "marginTop": 5,
-        "backgroundColor": "#3BEF61"
+        "backgroundColor": "#3BEF61",
+        "margin": "15px",
+        "borderRadius": 20
     },
     "video_title": {
-        "color": "#C32E4E",
-        "fontSize": 15,
-        "marginTop": 5,
+        "color": "#2a78c0",
+        "fontSize": 18,
         "fontWeight": "400",
         "marginHorizontal": 10,
         "paddingHorizontal": 2,
-        "fontFamily": "monospace"
+        "fontFamily": "monospace",
+        "alignSelf": "center",
+        "paddingBottom": "20px"
     }
 });
