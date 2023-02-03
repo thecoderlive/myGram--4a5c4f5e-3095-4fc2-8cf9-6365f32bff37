@@ -35,6 +35,7 @@ const styles = StyleSheet.create({
         "fontWeight": "400",
         "marginHorizontal": 10,
         "paddingHorizontal": 2,
-        "fontFamily": "monospace"
+        "fontFamily": "monospace",
+        "textTransform": "capitalize"
     }
 });
